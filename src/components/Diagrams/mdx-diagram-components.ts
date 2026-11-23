@@ -22,7 +22,10 @@ import VaultInterfaceDiagram, {
 } from "./TokenVault"
 import TxApplyDiagram from "./TxApply"
 import ValidatorKeysDiagram, { KeyDerivationDiagram } from "./ValidatorKeys"
+import VendingMachineDiagram from "./VendingMachine"
 import VerkleTreeDiagram from "./VerkleTree"
+import WebErasDiagram from "./WebEras"
+import ZkProofGameDiagram from "./ZkProofGame"
 
 /** Every interactive diagram, keyed by its markdown tag; spread into a layout's MDX components. */
 export const mdxDiagramComponents = {
@@ -50,5 +53,8 @@ export const mdxDiagramComponents = {
   VaultDepositDiagram,
   VaultInterfaceDiagram,
   VaultRequestDiagram,
+  VendingMachineDiagram,
   VerkleTreeDiagram,
+  WebErasDiagram,
+  ZkProofGameDiagram,
 }
